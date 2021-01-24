@@ -1,0 +1,33 @@
+
+body{
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+a , ul{
+    text-decoration: none;
+    list-style: none;
+}
+aside{
+    width:25%;
+    color: orange;
+    border:2px solid green;
+    float: left;
+}
+
+.nav ul li{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+ul > li > a >h1{
+   display: flex;
+   justify-content: center;
+}
+
+section{
+    padding:34px;
+    width: 70%;
+    border:2px solid yellow;
+    float: right;
+}
