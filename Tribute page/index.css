@@ -1,15 +1,14 @@
 
 #main{
-    width:98%;
-    height:400%;
+    margin:auto;
+    width:90vw;
     background: #E6EBE7;
     display: flex;
     flex-direction: column; 
     align-items: center;
-    margin-top: 1em;
 }
 #one{
-    height:10em;
+    height:10rem;
     width:91%;
     display: flex;
     justify-content: center;
@@ -20,11 +19,15 @@
     padding:3em 0em 0em 0em;
 }
 h1{
+    /* border:3px solid ; */
     font-weight: bold;
-    margin-bottom: 0.4em;
+    max-width: 90vw;
+    font-size: calc(18px+5rem);
+    text-align: center;
+    
 }
 #img-div{
-    width:90%;
+    width:90vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,44 +36,52 @@ h1{
 }
 img{ 
     
-    max-width: 100%;
+    max-width: 100vw;
     height: auto;
 }
 #img-caption{
     text-align: center;
-    margin-top:0.7em ;
+    margin-top:0.7rem ;
 }
 
 #tribute-info{
+    max-width:80vw;
     align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    margin:auto;
+    flex-wrap:column; 
+    flex-direction: column;
     background: #E6EBE7;
 }
-ul{
-    width:40em;
-}
+
 ul > li{
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 #tribute-info > h4{
     text-align: center;
-    margin:2em;
+    margin:2rem;
 }
 
 #tribute-link{
     font-size: large;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 #italian{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    max-width:80vw;
+    padding:3rem;
+    /* border:3px solid ; */
 }
-q{
-    width: 35em;
-    margin:2em;
+#sign{
+    /* border:3px solid green; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* q{
+    width: 35rem;
+    margin:2rem;
+} */
+p{
+    max-width:80vw;
 }
