@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border:9px  #1B1B23CC;
+    border:8px  #1B1B23CC;
     background: #1B1B23CC;
     opacity: 1;
     border-radius: 14px;
